@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.silhouette-container {
+  position: relative;
+  width: 300px;
+}
+
+.silhouette-container img {
+  width: 100%;
+  height: auto;
+}
+
+.slot {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.slot.weapon { top: 90px; left: 125px; }
+.slot.shield { top: 100px; left: 40px; }
+.slot.armor { top: 160px; left: 100px; }
+.slot.ring { top: 270px; left: 140px; }
